@@ -60,4 +60,4 @@ colnames(tidy.df) [1]<- "subject"
 colnames(tidy.df)[2] <- "activity"
 
 # saves the aggregated dataset for reporting
-write.table(tidy.df, file = "tidy dataset.txt", row.names = FALSE)
+write.table(tidy.df, file = "TidyData.txt", row.names = FALSE)
