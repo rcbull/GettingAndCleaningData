@@ -1,8 +1,8 @@
 
 ## set working directory
-setwd("G:/github/GettingAndCleaningData")
+setwd("F:/github/GettingAndCleaningData")
 
-# folder with data
+# folder with data after download at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 folder <- "UCI HAR Dataset"
 
 # columns be read
@@ -60,4 +60,4 @@ colnames(tidy.df) [1]<- "subject"
 colnames(tidy.df)[2] <- "activity"
 
 # saves the aggregated dataset for reporting
-write.table(tidy.df, file = "tidy.txt", row.names = FALSE, , quote = FALSE)
+write.table(tidy.df, file = "tidy.txt", row.names = FALSE, quote = FALSE)
